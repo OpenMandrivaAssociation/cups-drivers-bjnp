@@ -20,14 +20,13 @@ proprietary BJNP network protocol.
 %setup -q -n %{origname}-%{version}
 
 %build
-%configure \
-	--prefix=%{_prefix} \
+%configure2_5x \
 	--with-cupsbackenddir=%{_prefix}/lib/cups/backend
 %make
 
 %install
 rm -fr %{buildroot}
-make DESTDIR=%{buildroot} INSTALL="install -p" install
+%makeinstall_std
 
 %clean
 rm -fr %{buildroot}
