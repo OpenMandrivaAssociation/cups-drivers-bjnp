@@ -3,7 +3,7 @@
 Summary:	CUPS backend for the Canon BJNP network printers 
 Name:		cups-drivers-bjnp
 Version:	1.2.1
-Release:	4
+Release:	5
 License:	GPLv2
 Source0:	http://downloads.sourceforge.net/%{origname}/%{origname}-%{version}.tar.gz
 Group:		System/Printing
