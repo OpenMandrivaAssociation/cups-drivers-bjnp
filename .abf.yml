@@ -1,4 +1,5 @@
 removed_sources:
   cups-bjnp-1.1.tar.gz: a09d8815deaa90d0a57337af98b70701ef668012
-sources:
   cups-bjnp-1.2.1.tar.gz: 1bc7ae254769ab4fb2929b80c8f5a24888c8a9d2
+sources:
+  cups-bjnp-1.2.2.tar.gz: fc49517bc32c487d864425e824a27d40582cc71c
