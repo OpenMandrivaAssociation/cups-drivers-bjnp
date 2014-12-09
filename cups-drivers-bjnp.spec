@@ -19,7 +19,9 @@ proprietary BJNP network protocol.
 %setup -q -n %{origname}-%{version}
 
 %build
-%configure2_5x \
+%global optflags %{optflags} -Qunused-arguments
+
+%configure \
 	--with-cupsbackenddir=%{_prefix}/lib/cups/backend
 %make
 
