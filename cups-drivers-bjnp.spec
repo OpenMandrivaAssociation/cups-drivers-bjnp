@@ -8,6 +8,11 @@ License:	GPLv2
 Source0:	http://sourceforge.net/projects/cups-bjnp/files/cups-bjnp/1.2.2/cups-bjnp-%{version}.tar.gz
 Group:		System/Printing
 URL:		https://sourceforge.net/projects/cups-bjnp
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	cups-devel
 Requires:	cups
 
